@@ -1,12 +1,50 @@
 * {
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 
+h1 {
+    text-align: center;
+}
 
 body {
     background-image: url("https://wallpapercave.com/wp/wp6297403.jpg");
     background-color: black;
+    
+}
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}    
+
+
+#div1 {
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 500px;
+    width: 550px;
+    text-align:left;
+    
+    padding: 2%;
+
+}
+#div2 {
+    object-fit:fill;
+    margin-top: 50px;
+    height: 500px;
+    width: 550px;
+    text-align:left;
+    
+    
+
+}
+
+.bgcolor {
+    background-color: #011638;
+    padding: 0 0;
 }
